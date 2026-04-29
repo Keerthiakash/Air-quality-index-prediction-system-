@@ -1,12 +1,12 @@
-# 🌍 Air Quality Index (AQI) Prediction System
+ Air Quality Index (AQI) Prediction System
 
-## 📌 Overview
+ Overview
 
 This project focuses on predicting the Air Quality Index (AQI) using Machine Learning techniques. The system analyzes pollutant concentrations and environmental factors to forecast AQI levels and classify air quality.
 
 ---
 
-## 🎯 Objectives
+ Objectives
 
 * Predict AQI values using ML models
 * Identify pollution trends
@@ -15,23 +15,23 @@ This project focuses on predicting the Air Quality Index (AQI) using Machine Lea
 
 ---
 
-## 📊 Dataset
+ Dataset
 
 The dataset used is **city_day.csv**, which contains:
 
-### Features:
+Features:
 
 * Pollutants: PM2.5, PM10, NO, NO2, NOx, CO, SO2, O3
 * Other factors: Benzene, Toluene, Xylene
 * Time-based features: Year, Month, Day, Hour
 
-### Target:
+ Target:
 
 * AQI (Air Quality Index)
 
 ---
 
-## ⚙️ Technologies Used
+ Technologies Used
 
 * Python
 * Pandas, NumPy
@@ -40,7 +40,7 @@ The dataset used is **city_day.csv**, which contains:
 
 ---
 
-## 🧠 Machine Learning Models
+ Machine Learning Models
 
 The following models were implemented:
 
@@ -50,7 +50,7 @@ The following models were implemented:
 
 ---
 
-## 🔧 Data Preprocessing
+ Data Preprocessing
 
 * Missing values handled using forward fill
 * Date column converted and time features extracted
@@ -63,7 +63,7 @@ The following models were implemented:
 
 ---
 
-## 📈 Model Evaluation
+ Model Evaluation
 
 | Model             | RMSE      |
 | ----------------- | --------- |
@@ -73,11 +73,11 @@ The following models were implemented:
 
 Cross-Validation RMSE: **90.83**
 
-👉 Random Forest performed best with lowest error.
+ Random Forest performed best with lowest error.
 
 ---
 
-## 📊 Results
+ Results
 
 * Accurate AQI predictions were achieved
 * Predicted values closely match actual values
@@ -88,14 +88,14 @@ Cross-Validation RMSE: **90.83**
 
 ---
 
-## 📉 Visualizations
+ Visualizations
 
-### 🔹 AQI Prediction Trend
+ 🔹 AQI Prediction Trend
 
 The graph shows predicted vs actual AQI values over time.
 (*See output graph in notebook – page 3*)
 
-### 🔹 Feature Importance
+ 🔹 Feature Importance
 
 According to the model:
 
@@ -107,7 +107,7 @@ According to the model:
 
 ---
 
-## 🏷️ AQI Classification
+ AQI Classification
 
 | AQI Range | Category |
 | --------- | -------- |
@@ -122,7 +122,7 @@ Example:
 
 ---
 
-## 💡 Key Insights
+ Key Insights
 
 * PM2.5 is the dominant factor affecting AQI
 * High AQI levels indicate poor air quality
@@ -131,15 +131,15 @@ Example:
 
 ---
 
-## 🚀 How to Run the Project
+ How to Run the Project
 
-### 1. Install dependencies
+ 1. Install dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-### 2. Run the notebook
+ 2. Run the notebook
 
 ```
 jupyter notebook aqi_prediction.ipynb
@@ -147,7 +147,7 @@ jupyter notebook aqi_prediction.ipynb
 
 ---
 
-## 📁 Project Structure
+ Project Structure
 
 ```
 AQI-Prediction-System/
@@ -159,8 +159,7 @@ AQI-Prediction-System/
 ```
 
 ---
-
-## 🔮 Future Improvements
+ Future Improvements
 
 * Real-time AQI prediction using APIs
 * Deployment using Streamlit or Flask
@@ -169,10 +168,3 @@ AQI-Prediction-System/
 
 ---
 
-## 👨‍💻 Author
-
-Your Name
-
----
-
-⭐ If you found this project useful, give it a star!
